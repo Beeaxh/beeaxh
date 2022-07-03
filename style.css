@@ -81,7 +81,7 @@ body {
   transform: translate(-50%, -50%);
   height: auto;
   /* width: 30rem; */
-  margin-top: 2rem;
+  margin-top: 10rem;
 
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -443,7 +443,8 @@ input[type="number"]:nth-child(n + 4) {
     transform: translate(-40%, -50%);
     height: auto;
     /* width: 80%; */
-
+    text-align: left;
+    /* margin-top: 1rem; */
     font-family: Arial, Helvetica, sans-serif;
   }
   .signUpEmail,
