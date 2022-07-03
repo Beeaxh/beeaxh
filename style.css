@@ -259,6 +259,34 @@ body {
 .tokensHead {
   text-decoration: underline;
 }
+.buyAndSell {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 10px;
+}
+.buyBtn {
+  background-color: rgb(55, 209, 55);
+}
+.referencePrice {
+  font-size: 0.5;
+}
+.flexBuyAndSell {
+  display: flex;
+}
+.buy {
+  flex: 50%;
+  text-align: center;
+  padding: 0.5rem;
+}
+.sell {
+  flex: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #dbd5d5;
+}
 .otc {
   position: relative;
   width: 320px;
@@ -477,5 +505,14 @@ input[type="number"]:nth-child(n + 4) {
     border: none;
     outline: none;
     width: 100%;
+  }
+  .buyAndSell {
+    text-align: left;
+    width: 65%;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 3px 10px;
   }
 }

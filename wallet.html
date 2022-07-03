@@ -26,7 +26,7 @@
     <title>wallet</title>
   </head>
   <body>
-    <div class="flexTop">
+    <!-- <div class="flexTop">
       <div class="topTextDiv"><h2>Dashboard</h2></div>
       <div class="topIconDiv">
         <i class="fa-solid fa-bell mt-3"></i>
@@ -67,6 +67,37 @@
          
         </div>
       </div>
+    </div> -->
+    <div class="buyAndSell">
+      <div class="flexBuyAndSell">
+        <h3 class="buy">Buy</h3>
+        <h3 class="sell">Sell</h3>
+      </div>
+      <form class="p-3">
+        <div class="form-group">
+          <label for="exampleInputEmail1">I want to pay</label>
+          <input
+            type="input"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter amount"
+          />
+        </div>
+        <div class="form-group mt-3">
+          <label for="receive">I will receive</label>
+          <input type="password" class="form-control" id="receive" />
+        </div>
+        <br />
+
+        <p class="referencePrice">Reference Price $4000</p>
+
+        <div class="d-grid">
+          <button type="submit" class="btn buyBtn btn-block text-light">
+            Buy with 0 Fee
+          </button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
